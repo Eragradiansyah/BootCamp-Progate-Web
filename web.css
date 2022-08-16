@@ -1,0 +1,23 @@
+    .top-wrapper{
+        background-image:  url(picture/toko3.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;     
+        padding-top: 180px;
+        padding-bottom: 100px;
+        color: #F7FBFC;
+    }
+
+    .container-top{
+            width: 1000px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: auto;
+            margin-right: auto;
+    }
+    
+    .container-top h1{
+        font-size: 500%;
+        
+        
+}
