@@ -6,7 +6,7 @@
 
     <title> Web Toko Elektronik Progate </title>
 
-    <link rel="stylesheet" href="web-progate.css">
+    <link rel="stylesheet" href="web.css">
 </head>
 
 <body>
@@ -15,9 +15,20 @@
     </div>
 
     <div class="main">
-        <div class="top"></div>
-        <div class="product"></div>
-        <div class="order"></div>
+        <div class="top">
+            <div class="top-wrapper">
+                <div class="container-top">
+                    <h1> BUY SOMETHING TO THE PERSON TAHT YOU LOVE</h1>
+                    <h2>A gift is something that is given to another person without direct reciprocity or compensation.
+                        Not only in the form of goods, prizes can also be in other forms such as cash and services. In
+                        society, gift giving is often functioned as an act to bring social relations closer.</h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="product"></div>
+    <div class="order"></div>
     </div>
 
     <div class="footer"></div>
