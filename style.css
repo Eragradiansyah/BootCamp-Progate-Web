@@ -1,28 +1,208 @@
-    body{
-    margin: 0;
-    padding: 0;
-    }
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
 
-    .top-wrapper{
-        background-image:  url(toko3.png);
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;     
-        padding-top: 180px;
-        padding-bottom: 100px;
-        color: #F7FBFC;
-    }
+body {
+  font-family: "Lucida Grande";
+}
 
-    .container-top{
-            width: 1000px;
-            padding-left: 15px;
-            padding-right: 15px;
-            margin-left: auto;
-            margin-right: auto;
-    }
-    
-    .container-top h1{
-        font-size: 500%;
-        
-        
+.top-wrapper{
+  background-image: url("https://prog-8.com/images/html/advanced/top_en.png");
+  background-size: cover;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+header{
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.header-logo{
+  float: left;
+  padding: 20px 0px;
+}
+
+.header-logo img{
+  width: 124px;
+}
+
+.log-in {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  display: block;
+  line-height: 65px;
+  padding: 0px 25px;
+  height: 65px;
+  transition: all 1s;
+}
+
+.log-in:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+.top-wrapper{
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.title h1{
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.title p{
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+
+.btn-wrapper{
+ margin-top: 20px; 
+ margin-bottom: 20px;
+}
+
+.btn {
+  color: white;
+  opacity: 0.8;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+.email {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper p{
+  margin: 10px 0px;
+}
+
+.study{
+  text-align: center;
+  padding-top: 60px;
+  height: 500px;
+  background-color: #f7f7f7;
+}
+
+.study-title {
+  margin-bottom: 30px;
+  color: #5f5d60;
+  font-weight: normal;
+}
+
+.study-item {
+  float: left;
+  width: 25%;
+}
+
+.images p{
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.images {
+  position: relative;
+}
+
+.desc {
+  width: 80%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.pesan{
+  text-align: center;
+}
+
+.h2-pesan{
+  margin-top: 60px;
+}
+
+.btn-pesan{
+  display: inline-block;
+  margin: 30px 0px 80px 0px;
+  background-color: #5dca88;
+  opacity: 0.8;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 4px;
+  box-shadow: 0px 7px #1a7940;
+  
+}
+
+.btn-pesan:hover{
+  background-color: #5dca88;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.btn-pesan:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer {
+  border-top: solid 1px #eee;
+}
+
+.footer-logo{
+  margin-top:30px;
+}
+.footer-logo img{
+  width: 124px;
+}
+
+.footer-logo p{
+  font-size: 12px;
+  color: #b3aeb5;
 }
