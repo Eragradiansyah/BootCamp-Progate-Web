@@ -3,6 +3,10 @@ body{
     padding: 0;
     }
 
+a {
+    text-decoration: none;
+}
+
 .top-wrapper{
     background-image:  url(toko3.png);
     background-size: 100%;
@@ -27,4 +31,22 @@ body{
     font-size: 20px;
     font-family: calibri;
     color: black;
+}
+
+.btn{
+    display: inline-block;
+}
+
+.start{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.start:hover{
+    background-color: black;
+    color: white;
 }
